@@ -115,6 +115,7 @@ cp permission-gate.ts ~/.pi/agent/extensions/
 | `entry-renderer.ts` | TUI-only session entry rendering via `appendEntry` and `registerEntryRenderer` |
 | `debug-provider.ts` | Toggle raw provider stream capture with `/debug-provider` and inspect each assistant message in a TUI-only session entry |
 | `event-bus.ts` | Inter-extension communication via `pi.events` |
+| `aside-bridge.ts` | File-based inbox/outbox bridge so the Aside browser agent can message live sessions and read the replies |
 
 ### Session Metadata
 
